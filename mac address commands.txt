@@ -1,0 +1,4 @@
+show mac address-table
+clear mac address-table dynamic
+clear mac address-table dynamic address x
+clear mac address-table dynamic interface x
