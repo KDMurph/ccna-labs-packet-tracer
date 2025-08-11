@@ -1,0 +1,20 @@
+IPv4 Header
+PDU - Protocol Data Units
+data
+data+L4 header - segment
+data+L4+L3 header - packet
+data+L4+L3+L2 header - frame
+
+version- 4 bits, IPv4 vs IPv6
+internet header length (IHL)- 4 bits, identifies length in 4 byte increments min 20 max 60
+DSCP field- Differentiated Services Code Point, 6 bits, QoS, used to prioritize
+ENC field- Explicit Congestion Notification, 2 bits, provides end to end notification w/o dropping packets, optional
+total length- 16 bits, min 20 max 65535
+identification- identifies packet fragments
+flags-control/identify fragments, bit 0 reserved, bit 1 Don't Fragment DF, bit 2 More Fragments (MF)
+fragment offset- allows fragments to be reassembled
+time to live- ttl, 8 bits, prevents loops, recommended 64 TTL
+protocol field- 6 TCP, 17 UDP, 1 ICP, 89 OSPF
+header checksum- used to check for errors, if router calculation and this do not match packet is dropped
+source/dest addresses- 32 bits each
+options- 0-320 bits
