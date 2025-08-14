@@ -12,7 +12,7 @@
 * service password-encryption
 * enable secret
 * show int status
-* int *interface* 
+* int *interface*
 * desc
 * show int
 * show int description
@@ -34,3 +34,13 @@
 * ip route *ip address netmask exit-interface*
 * ip route *ip address netmask exit-interface next-hop*
 * ip route 0.0.0.0 0.0.0.0 *next-hop*
+
+
+
+<b>VLANs</b>
+
+* show vlan brief
+* switchport mode access
+* switchport access vlan *#*
+* vlan *#*
+* name

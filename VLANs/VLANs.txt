@@ -1,0 +1,24 @@
+LAN- single broadcast domain
+
+broadcast domain- group of device that will receive a broadcast frame from any one of the members
+
+performance- lots of unnecessary broadcast traffic can reduce network performance
+
+a switch will not forward traffic between VLANs including broadcast/unknown unicast traffic
+
+a switch does not perform inter-VLAN routing, it must go through the router
+
+vlan 1 is default 
+
+an access port is a switchport that belongs to a single VLAN and usually connects to end hosts
+
+trunk port - switchports that carry multiple VLANs
+
+commands:
+
+show vlan brief
+int or int range
+SW1(config-if)#switchport mode access
+switchport access vlan #
+vlan #
+name 
