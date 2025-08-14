@@ -16,7 +16,7 @@ E - 204-255
 
 
 
-IANA assigns companies ipv4 address/networks 
+IANA assigns companies ipv4 address/networks
 
 
 
@@ -92,7 +92,7 @@ Example- 172.30.0.0/16, need 100 subnets with 500 hosts per subnet
 
 
 
-**To find hosts:**
+**To find usable hosts:**
 
 2^h - 2
 
@@ -124,6 +124,14 @@ Subnets jump by 16
 
 
 
+**Prefix length:**
+
+Host bits + original prefix length
+
+
+
+
+
 **Network:**
 
 Increments of block size
@@ -133,8 +141,4 @@ Increments of block size
 **Broadcast:**
 
 Network octet + (block size-1)
-
-
-
-
 
