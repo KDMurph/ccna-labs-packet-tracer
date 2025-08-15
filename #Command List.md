@@ -63,6 +63,8 @@ Router sub-interface
 
 * int g0/.10
 * encapsulation dot1q *vlan #*
+*
+* SVI: int _vlan_
 
 
 
